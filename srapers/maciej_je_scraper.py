@@ -7,7 +7,6 @@ import urllib.request
 
 websites = ['https://maciej.je/kategorie/na-miescie/warszawa/']
 
-
 def make_soup(url):
     page = urllib.request.urlopen(url)
     soup = BeautifulSoup(page)
