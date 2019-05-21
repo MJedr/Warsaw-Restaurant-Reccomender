@@ -64,5 +64,5 @@ for website in websites:
     except IndexError:
         break
 
-with open('maciejje_rest.txt', 'w', encoding='utf-8') as outfile:
+with open('..\\outputs\\maciejje_rest.txt', 'w', encoding='utf-8') as outfile:
     json.dump(restaurants_info, outfile)
